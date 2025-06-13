@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.conatiner{
+  width: 80%;
+  margin: auto;
+}
+.outer{
+  position: relative;
+  border: 1px solid rgb(255, 67, 67);
+  margin: 5px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.inner{
+  border: none;
+  background: rgb(235, 27, 27);
+  text-align: right;
+  transition: 0.5s ease-in;
+}
