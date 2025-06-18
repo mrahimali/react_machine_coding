@@ -8,7 +8,7 @@ const Progress = ({progress}) => {
   return (
     <div className='outer'>
         <div className='inner' style={{
-          // width:`${progress}%`,
+          // width:`${tempProg}%`,  // here browser will repaint the page again and again.
           transform:`translateX(${tempProg-100}%)`, 
           color: progress<4? 'black': 'white'}} role='progressbar' aria-valuemax='100' aria-valuemin='0' aria-valuenow={tempProg}>
             {tempProg}%
